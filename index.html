@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Keeper</title>
+    <style>
+      .winner {
+        color: green;
+      }
+      .loser {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span id="p1Score">0</span> to <span id="p2Score">0</span></h1>
+    <select name="" id="playto">
+      <option value="3">3</option>
+      <option value="5" selected>5</option>
+      <option value="8">8</option>
+    </select>
+    <button id="p1Button">+1 to Player1</button>
+    <button id="p2Button">+1 to Player2</button>
+    <button id="reset">Reset</button>
+    <script src="app.js"></script>
+  </body>
+</html>
